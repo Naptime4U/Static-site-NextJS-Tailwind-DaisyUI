@@ -26,13 +26,21 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased h-screen w-screen text-white`} style={{
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen w-screen text-white`}
+        style={{
           backgroundImage: "url(/background.webp)",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
+          backgroundPosition: "center",
+          backgroundColor: "#000",
         }}
       >
         <Header />
         {children}
       </body>
     </html>
+
+
   );
 }

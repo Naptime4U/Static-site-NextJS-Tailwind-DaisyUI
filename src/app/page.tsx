@@ -50,9 +50,9 @@ let items = [
       {
         type: "stack",
         activities: [
-          {image: "img/rok.png" },
-          {image: "img/gf.png" },
-          {image: "img/gcn.png" },
+          { image: "img/rok.png" },
+          { image: "img/gf.png" },
+          { image: "img/gcn.png" },
         ]
       },
     ],
@@ -92,9 +92,9 @@ let items = [
       {
         type: "stack",
         activities: [
-          {image: "img/lyoko.png" },
-          {image: "img/ssonic.jpg" },
-          {image: "img/kyuu.png"}
+          { image: "img/lyoko.png" },
+          { image: "img/ssonic.jpg" },
+          { image: "img/kyuu.png" }
         ]
       },
     ],
@@ -104,11 +104,9 @@ let items = [
 
 export default function Home() {
   return (
-    <div>
-      <div className=" w-[90vw] bg-blue-950/80 p-4 m-4 flex flex-col mx-auto rounded-lg text-white">
-        <Hero />
-        <Accordion items={items} />
-      </div>
+    <div className="w-[90vw] bg-blue-950/80 p-4 m-4 flex flex-col mx-auto rounded-lg text-white max-w-full overflow-hidden">
+      <Hero />
+      <Accordion items={items} />
     </div>
   );
 }

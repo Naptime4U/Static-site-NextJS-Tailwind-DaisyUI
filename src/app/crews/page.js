@@ -11,7 +11,7 @@ function page() {
                 </h1>
                 <Carousel />
                 <h1 className="mb-5 text-3xl sm:text-4xl md:text-5xl font-bold text-center wrap-break-word m-4">
-                    Other Crews
+                    Crews List
                 </h1>
                 <TableZebra />
             </div>
