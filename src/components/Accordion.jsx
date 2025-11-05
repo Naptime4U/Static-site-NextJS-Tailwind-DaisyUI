@@ -3,7 +3,7 @@ import InteractiveStack from "./InteractiveStack";
 
 function Accordion({ items }) {
     return (
-        <div className="w-full mx-auto space-y-2 whitespace-pre-line">
+        <div className="w-full mx-auto space-y-2 whitespace-pre-line mt-4">
             {items.map((item, index) => (
                 <div
                     key={index}

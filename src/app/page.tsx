@@ -89,6 +89,14 @@ let items = [
               From taking awesome pictures to sharing the best moments of the meetups, funny clips, modding tutorials, and more.
         `,
       },
+      {
+        type: "stack",
+        activities: [
+          {image: "img/lyoko.png" },
+          {image: "img/ssonic.jpg" },
+          {image: "img/kyuu.png"}
+        ]
+      },
     ],
   },
 ];
