@@ -20,7 +20,7 @@ function page() {
             You can find the channel to upload your skins in the Freesoul Discord Server and all the information related to them will be posted on the Announcement channel.
         </p>
 
-        <div className='flex flex-wrap justify-center'> {/* <-- Solo esto cambia */}
+        <div className='flex flex-wrap justify-center'>
             <Hover items={['img/glorpTK.png', 'img/glorpTK2.png', 'img/glorpTK3.jpg', 'img/glorpTK4.png']} />
             <Hover items={['img/havenTK.png', 'img/havenTK2.jpg', 'img/havenTK3.png', 'img/havenTK4.jpg']} />
         </div>
