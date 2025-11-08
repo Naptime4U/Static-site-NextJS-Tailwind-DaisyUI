@@ -6,7 +6,7 @@ function Carousel() {
 
             <div id="slide1" className="carousel-item relative w-full h-80 sm:h-96">
                 <img
-                    src="img/rok.png"
+                    src="img/ROK.png"
                     className="object-cover object-center w-full h-full"
                 />
                 <h1 className="absolute top-0 left-0 w-full text-3xl sm:text-4xl font-bold text-center text-white bg-black/60 py-2">
@@ -20,7 +20,7 @@ function Carousel() {
 
             <div id="slide2" className="carousel-item relative w-full h-80 sm:h-96">
                 <img
-                    src="img/gf.png"
+                    src="img/GF.png"
                     className="object-cover object-center w-full h-full"
                 />
                 <h1 className="absolute top-0 left-0 w-full text-3xl sm:text-4xl font-bold text-center text-white bg-black/60 py-2">
@@ -34,7 +34,7 @@ function Carousel() {
 
             <div id="slide3" className="carousel-item relative w-full h-80 sm:h-96">
                 <img
-                    src="img/gcn.png"
+                    src="img/GCN.png"
                     className="object-cover object-center w-full h-full"
                 />
                 <h1 className="absolute top-0 left-0 w-full text-3xl sm:text-4xl font-bold text-center text-white bg-black/60 py-2">

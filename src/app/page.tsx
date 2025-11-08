@@ -33,7 +33,7 @@ let items = [
       {
         type: "stack",
         activities: [
-          { name: "Freesoul", image: "img/freesoul.png" },
+          { name: "Freesoul", image: "img/Freesoul.png" },
         ]
       },
       {
@@ -50,9 +50,9 @@ let items = [
       {
         type: "stack",
         activities: [
-          { image: "img/rok.png" },
-          { image: "img/gf.png" },
-          { image: "img/gcn.png" },
+          { image: "img/ROK.png" },
+          { image: "img/GF.png" },
+          { image: "img/GCN.png" },
         ]
       },
     ],
@@ -73,7 +73,7 @@ let items = [
       {
         type: "stack",
         activities: [
-          { name: "GameBanana", image: "img/gamebanana.png" },
+          { name: "GameBanana", image: "img/Gamebanana.png" },
           { name: "R2Modman", image: "img/r2mod.png" },
         ]
       },
@@ -93,7 +93,7 @@ let items = [
         type: "stack",
         activities: [
           { image: "img/lyoko.png" },
-          { image: "img/ssonic.jpg" },
+          { image: "img/Ssonic.jpg" },
           { image: "img/kyuu.png" }
         ]
       },

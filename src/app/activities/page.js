@@ -22,7 +22,7 @@ function page() {
 
         <div className='flex flex-wrap justify-center'> {/* <-- Solo esto cambia */}
             <Hover items={['img/glorpTK.png', 'img/glorpTK2.png', 'img/glorpTK3.jpg', 'img/glorpTK4.png']} />
-            <Hover items={['img/havenTK.png', 'img/havenTK2.jpg', 'img/havenTK3.png', 'img/havenTK4.jpg']} />
+            <Hover items={['img/havenTK.png', 'img/havenTK2.JGP', 'img/havenTK3.png', 'img/havenTK4.JGP']} />
         </div>
     </div>
 
